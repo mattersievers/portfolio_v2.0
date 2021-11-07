@@ -76,6 +76,7 @@ margin-right: 10vw;
 
 .navBtn {
   color: var(--dark-olive-green);
+  text-shadow: 1px 1px 3px var(--cornsilk);
   font-size: 2vmax;
   padding: 0.5vw;
   margin: 1vw;
@@ -84,12 +85,13 @@ margin-right: 10vw;
 
 .navBtn:hover {
   color: var(--cornsilk);
+  text-shadow: 2px 2px var(--kombu-green);
   cursor: pointer;
 }
 
 .navBtn:active {
   color: var(--fawn);
-  text-shadow: 2px 2px var(--kombu-green);
+  text-shadow: -2px -2px var(--kombu-green);
 }
 
 .navBtnActivated{
@@ -124,7 +126,27 @@ margin-right: 10vw;
 /* Contact Section Stylings */
 
 /* Footer Styling */
-.footer{
+footer{
   background-image: var(--gradient-top-right);
   align-self: flex-end;
+  width: 100vw;
+  padding: 3vh 33vw;
+}
+
+footer a {
+  color: var(--kombu-green);
+  text-shadow: 1px 1px var(--cornsilk);
+  font-size: 1.5vmax;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--cornsilk);
+  text-shadow: 1px 1px 2px var(--kombu-green);
+  cursor: pointer;
+}
+
+footer a:active {
+  color: var(--cornsilk);
+  text-shadow: -1px -1px var(--kombu-green);
 }

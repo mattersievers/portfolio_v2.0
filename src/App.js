@@ -13,13 +13,13 @@ function App() {
   const [currentPageSelection, setCurrentPageSelection] = useState(pages[0]);
 
   return (
-    <div className="pageContent">
+    <div className="pageContent d-flex flex-column justify-content-between">
       <Header
       pages={pages}
       currentPageSelection = {currentPageSelection}
       setCurrentPageSelection = {setCurrentPageSelection} />
       
-      <main className="d-flex flex-column">
+      <main className="">
 
         {currentPageSelection === "About" && 
         <AboutMe />
@@ -45,8 +45,11 @@ function App() {
         }
 
       </main>
-
+      
+      <footer>
       <Footer />
+      </footer>
+
     </div>    
   );
 }
