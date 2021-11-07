@@ -3,7 +3,12 @@ import React from "react";
 const Navigation = () => {
     return (
         <section>
-            <h1>Navigation</h1>
+            <ul>
+                <li className="my-5">About Me</li>
+                <li>Portfolio</li>
+                <li>Resume</li>
+                <li>Contact</li>
+            </ul>
         </section>
     )
 }
