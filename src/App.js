@@ -13,19 +13,40 @@ function App() {
 
   const projects = [
     {
-      name:"proj1",
-      link:"",
-      photo:"",
+      name:"Budget Tracker",
+      link:"https://tranquil-dawn-49463.herokuapp.com/",
+      technology:"IndexedDb and Cache Storage",
+      description:""
     },
     {
-      name:"proj2",
-      link:"",
-      photo:"",
+      name:"gripeSUPPORT",
+      link:"https://sheltered-scrubland-76347.herokuapp.com/",
+      technology:"SQL/express/handlebars",
+      description:"Collaboration"
     },
     {
-      name:"proj3",
-      link:"",
-      photo:"",
+      name:"Pizza Hunt",
+      link:"https://vast-castle-22444.herokuapp.com/",
+      technology:"MongoDB",
+      description:""
+    },
+    {
+      name:"Zoo Keepr",
+      link:"https://thawing-lake-23506.herokuapp.com/",
+      technology:"",
+      description:""
+    },
+    {
+      name:"Note Taker",
+      link:"https://still-reef-94252.herokuapp.com/",
+      technology:"",
+      description:""
+    },
+    {
+      name:"Tech Blog",
+      link:"https://sleepy-earth-77165.herokuapp.com/",
+      technology:"",
+      description:""
     }
 
   ]
@@ -45,13 +66,14 @@ function App() {
 
         {currentPageSelection === 'Portfolio' &&
           <>
+          <div className="d-flex flex-wrap justify-content-around">
             {projects.map((project,i) =>(
               <Project
               project={project}
               key={i}
               />
             ))}
-          
+          </div>
           </>
         }
         

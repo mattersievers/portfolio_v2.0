@@ -114,6 +114,15 @@ box-shadow: -2px -2px 3px var(--fawn);
 }
 /* Portfolio Stylings */
 
+.project img{
+  margin: 2vh;
+width: 30vw;
+height: 30vh;
+border-radius: 15px 50px;
+border-style: inset;
+border-color: var(--fawn);
+box-shadow: -2px -2px 3px var(--cornsilk);
+}
 /* Resume Stylings */
 
 /* Contact Section Stylings */

@@ -3,8 +3,8 @@ import React from "react";
 const Project = (prop) => {
     console.log(prop)
     return (
-        <section>
-            <h1>{prop.project.name}</h1>
+        <section className="project">
+            <img src={require(`../../assets/pics/${prop.project.name}.png`).default} alt={prop.project.name} /> 
         </section>
     )
 }
