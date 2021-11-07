@@ -59,17 +59,19 @@
   --gradient-radial: radial-gradient(#606c38ff, #283618ff, #fefae0ff, #dda15eff, #bc6c25ff);
 }
 
- .mainBody{
+/* Main Body Stylings */
+ .pageContent{
    background-color: var(--kombu-green);
-   min-height: 100vh;
+   height: 100vh;
  }
 
+/* Header and Navigation styling */
 li {
   list-style-type: none;
 }
 
 .navBar{
-margin-right: 3vw;
+margin-right: 10vw;
 }
 
 .navBtn {
@@ -82,8 +84,18 @@ margin-right: 3vw;
 
 .navBtn:hover {
   color: var(--cornsilk);
+  cursor: pointer;
 }
 
+.navBtn:active {
+  color: var(--fawn);
+  text-shadow: 2px 2px var(--kombu-green);
+}
+
+.navBtnActivated{
+  color: var(--cornsilk);
+  text-shadow: 2px 2px 5px var(--kombu-green);
+}
 .header{
   background-image: var(--gradient-bottom-right);
   padding: 2em;
@@ -95,4 +107,24 @@ margin-right: 3vw;
   font-size: 4vmax;
   margin-left: 5vw;
   margin-top: 2vh;
+  text-shadow: 2px 1px var(--cornsilk);
+}
+
+.myName:hover{
+  color: var(--liver-dogs);
+}
+
+/* About Me Stylings */
+
+
+/* Portfolio Stylings */
+
+/* Resume Stylings */
+
+/* Contact Section Stylings */
+
+/* Footer Styling */
+.footer{
+  background-image: var(--gradient-top-right);
+  align-self: flex-end;
 }

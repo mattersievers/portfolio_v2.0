@@ -2,10 +2,9 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <section>
-            <h1>Footer</h1>
-            <a href="#github">GitHub</a>
-            <a href="#linkedin">LinkedIn</a>
+        <section className="footer align-content-end">
+            <a href="https://github.com/mattersievers">GitHub</a>
+            <a href="https://www.linkedin.com/in/matthew-sievers-414558213">LinkedIn</a>
             <a href="#indeed">Indeed</a>
         </section>
     )
