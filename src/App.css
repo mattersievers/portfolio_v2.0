@@ -117,8 +117,27 @@ margin-right: 10vw;
 }
 
 /* About Me Stylings */
+.aboutMe{
+  color: var(--cornsilk);
+}
 
+.aboutMe img{
+margin: 2vh;
+width: 20%;
+border-radius: 15px 50px;
+border-style: inset;
+border-color: var(--liver-dogs);
+box-shadow: -2px -2px 3px var(--fawn);
+}
 
+.aboutMe p{
+  border-style: outset;
+  border-radius: 50px 15px;
+  width: 75%;
+  padding: 4vmin;
+  border-color: var(--liver-dogs);
+  box-shadow: 2px 2px var(--fawn);
+}
 /* Portfolio Stylings */
 
 /* Resume Stylings */
@@ -148,5 +167,5 @@ footer a:hover {
 
 footer a:active {
   color: var(--cornsilk);
-  text-shadow: -1px -1px var(--kombu-green);
+  text-shadow: -1px -1px 3px var(--kombu-green);
 }
