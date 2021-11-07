@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
+
 .App {
   text-align: center;
 }
@@ -55,4 +57,41 @@
   --gradient-top-left: linear-gradient(225deg, #606c38ff, #283618ff, #fefae0ff, #dda15eff, #bc6c25ff);
   --gradient-bottom-left: linear-gradient(315deg, #606c38ff, #283618ff, #fefae0ff, #dda15eff, #bc6c25ff);
   --gradient-radial: radial-gradient(#606c38ff, #283618ff, #fefae0ff, #dda15eff, #bc6c25ff);
-  }
+}
+
+ 
+
+li {
+  list-style-type: none;
+}
+
+.navBar{
+margin-right: 3vw;
+}
+
+.navBtn {
+  background-color: transparent;
+  border: none;
+  color: var(--dark-olive-green);
+  font-size: 2vmax;
+  padding: 0.5vw;
+  margin: 1vw;
+  text-decoration: none;
+}
+
+.navBtn:hover {
+  color: var(--cornsilk);
+}
+
+.header{
+  background-image: var(--gradient-bottom-right);
+  padding: 1em;
+}
+
+.myName{
+  font-family: 'Ruthie', cursive;
+  color: var(--fawn);
+  font-size: 4vmax;
+  margin-left: 5vw;
+  margin-top: 2vh;
+}
