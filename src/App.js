@@ -6,7 +6,7 @@ import Project from './components/Project';
 
 function App() {
   return (
-    <div>
+    <div className="mainBody">
       <Header />
       <Project />
       <Project />

@@ -2,8 +2,8 @@ import React from "react";
 
 const Navigation = () => {
     return (
-        <section className="float-right">
-            <ul className="d-flex flex-row ">
+        <section className="d-flex align-items-end">
+            <ul className="d-flex flex-row justify-content-between">
                 <li className="nav-item">
                     <a className="navBtn" href="#about">About Me</a>
                 </li>
