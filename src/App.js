@@ -9,8 +9,26 @@ import Contact from './components/Contact';
 
 function App() {
   const [pages] = useState(['About', 'Portfolio', 'Resume', 'Contact']);
-
   const [currentPageSelection, setCurrentPageSelection] = useState(pages[0]);
+
+  const projects = [
+    {
+      name:"proj1",
+      link:"",
+      photo:"",
+    },
+    {
+      name:"proj2",
+      link:"",
+      photo:"",
+    },
+    {
+      name:"proj3",
+      link:"",
+      photo:"",
+    }
+
+  ]
 
   return (
     <div className="pageContent d-flex flex-column justify-content-between">
@@ -27,12 +45,13 @@ function App() {
 
         {currentPageSelection === 'Portfolio' &&
           <>
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
+            {projects.map((project,i) =>(
+              <Project
+              project={project}
+              key={i}
+              />
+            ))}
+          
           </>
         }
         
