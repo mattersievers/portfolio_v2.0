@@ -1,44 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 :root{
   /* CSS HEX */
   --dark-olive-green: #606c38ff;
@@ -59,10 +20,18 @@
   --gradient-radial: radial-gradient(#606c38ff, #283618ff, #fefae0ff, #dda15eff, #bc6c25ff);
 }
 
+*{
+  box-sizing: border-box;
+}
+
 /* Main Body Stylings */
  .pageContent{
    background-color: var(--kombu-green);
-   height: 100vh;
+   height: 100%;
+ }
+
+ main{
+    height: 100vh;
  }
 
 /* Header and Navigation styling */
@@ -100,7 +69,8 @@ margin-right: 10vw;
 }
 .header{
   background-image: var(--gradient-bottom-right);
-  padding: 2em;
+  padding: 5vh;
+  margin-bottom: 2vh;
 }
 
 .myName{
@@ -123,20 +93,24 @@ margin-right: 10vw;
 
 .aboutMe img{
 margin: 2vh;
-width: 20%;
+width: 20vw;
 border-radius: 15px 50px;
 border-style: inset;
 border-color: var(--liver-dogs);
 box-shadow: -2px -2px 3px var(--fawn);
 }
-
+.aboutMe div{
+  padding-bottom: 5vh;
+}
 .aboutMe p{
   border-style: outset;
   border-radius: 50px 15px;
-  width: 75%;
+  width: 70vw;
   padding: 4vmin;
   border-color: var(--liver-dogs);
   box-shadow: 2px 2px var(--fawn);
+  font-size: 3vh;
+
 }
 /* Portfolio Stylings */
 
@@ -150,6 +124,7 @@ footer{
   align-self: flex-end;
   width: 100vw;
   padding: 3vh 33vw;
+  margin-top: 2.5vh;
 }
 
 footer a {
