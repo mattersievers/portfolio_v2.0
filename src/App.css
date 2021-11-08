@@ -119,7 +119,7 @@ box-shadow: -2px -2px 3px var(--fawn);
   color: var(--cornsilk);
 }
 
-.project img{
+.projectImg{
 margin: 2vh;
 width: 30vw;
 height: 30vh;
@@ -128,29 +128,39 @@ border-style: inset;
 border-color: var(--fawn);
 box-shadow: -2px -2px 3px var(--cornsilk);
 }
-.websiteLink {
+.disappearingProject{
   display: none;
 }
-.repoLink{
-  display: none;
+
+.container:hover > .projectImg{
+  filter: blur(10px) brightness(10000%);
+}
+
+.container:hover > .disappearingProject{
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  color: var(--dark-olive-green);
+}
+
+.container:hover > .projectTitle{
+  top: 30%;
+  left: 50%;
 }
 .container:hover > .websiteLink{
-    display: block;
-    position: absolute;
     top: 50%;
     left: 30%;
-    transform: translate(-50%,-50%);
   }
   
 .container:hover > .repoLink{
-  display: block;
-    position: absolute;
     top: 50%;
     left: 70%;
-    transform: translate(-50%,-50%);
-  }
+   }
 
-
+.container:hover > .describeProject{
+  top: 70%;
+  left: 30%;
+}
 
 /* Resume Stylings */
 
