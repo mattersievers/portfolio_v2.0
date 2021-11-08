@@ -16,37 +16,43 @@ function App() {
       name:"Budget Tracker",
       link:"https://tranquil-dawn-49463.herokuapp.com/",
       technology:"IndexedDb and Cache Storage",
-      description:""
+      description:"",
+      repo:""
     },
     {
       name:"gripeSUPPORT",
       link:"https://sheltered-scrubland-76347.herokuapp.com/",
       technology:"SQL/express/handlebars",
-      description:"Collaboration"
+      description:"Collaboration",
+      repo:""
     },
     {
       name:"Pizza Hunt",
       link:"https://vast-castle-22444.herokuapp.com/",
       technology:"MongoDB",
-      description:""
+      description:"",
+      repo:""
     },
     {
       name:"Zoo Keepr",
       link:"https://thawing-lake-23506.herokuapp.com/",
       technology:"",
-      description:""
+      description:"",
+      repo:""
     },
     {
       name:"Note Taker",
       link:"https://still-reef-94252.herokuapp.com/",
       technology:"",
-      description:""
+      description:"",
+      repo:""
     },
     {
       name:"Tech Blog",
       link:"https://sleepy-earth-77165.herokuapp.com/",
       technology:"",
-      description:""
+      description:"",
+      repo:""
     }
 
   ]

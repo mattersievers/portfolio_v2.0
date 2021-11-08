@@ -113,9 +113,14 @@ box-shadow: -2px -2px 3px var(--fawn);
 
 }
 /* Portfolio Stylings */
+.container{
+  position: relative;
+  text-align:center;
+  color: var(--cornsilk);
+}
 
 .project img{
-  margin: 2vh;
+margin: 2vh;
 width: 30vw;
 height: 30vh;
 border-radius: 15px 50px;
@@ -123,6 +128,30 @@ border-style: inset;
 border-color: var(--fawn);
 box-shadow: -2px -2px 3px var(--cornsilk);
 }
+.websiteLink {
+  display: none;
+}
+.repoLink{
+  display: none;
+}
+.container:hover > .websiteLink{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+  }
+  
+.container:hover > .repoLink{
+  display: block;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+  }
+
+
+
 /* Resume Stylings */
 
 /* Contact Section Stylings */

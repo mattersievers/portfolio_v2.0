@@ -1,6 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 const Navigation = (props) => {
+
+    useEffect(() => {
+        document.title = 'Matthew Sievers ' + props.currentPageSelection;
+    })
+
     return (
         <section className="d-flex align-items-end">
             <ul className="d-flex flex-row justify-content-between">
