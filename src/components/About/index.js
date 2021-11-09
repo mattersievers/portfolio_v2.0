@@ -2,7 +2,7 @@ import React from "react";
 import headshot from "../../assets/pics/headshot.jpg"
 const AboutMe = () => {
     return(
-        <section className="aboutMe d-flex flex-column justify-content-around">
+        <section className="aboutMe d-flex flex-column justify-content-around flex-wrap">
             <img className="align-self-center" alt="A very studious Matthew" src={headshot}/>
             <div className="align-self-center">
             <p className="">

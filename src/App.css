@@ -22,16 +22,20 @@
 
 *{
   box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 /* Main Body Stylings */
  .pageContent{
    background-color: var(--kombu-green);
-   height: 100%;
+   width: 100%;
+   
  }
 
  main{
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+  
  }
 
 /* Header and Navigation styling */
@@ -40,13 +44,15 @@ li {
 }
 
 .navBar{
-margin-right: 10vw;
+margin-right: 10%;
+width: 100%;
 }
+
 
 .navBtn {
   color: var(--dark-olive-green);
   text-shadow: 1px 1px 3px var(--cornsilk);
-  font-size: 2vmax;
+  font-size: 5vmin;
   padding: 0.5vw;
   margin: 1vw;
   text-decoration: none;
@@ -93,7 +99,7 @@ margin-right: 10vw;
 
 .aboutMe img{
 margin: 2vh;
-width: 20vw;
+width: 25vmax;
 border-radius: 15px 50px;
 border-style: inset;
 border-color: var(--liver-dogs);
@@ -106,13 +112,15 @@ box-shadow: -2px -2px 3px var(--fawn);
   border-style: outset;
   border-radius: 50px 15px;
   width: 70vw;
-  padding: 4vmin;
+  height: 100%;
+  padding: 4vmax;
   border-color: var(--liver-dogs);
   box-shadow: 2px 2px var(--fawn);
-  font-size: 3vh;
+  font-size: 4vmin;
+  text-shadow: 2px 2px var(--dark-olive-green);
 
 }
-/* Portfolio Stylings */
+/* Portfolio projects Stylings */
 .container{
   position: relative;
   text-align:center;
@@ -120,9 +128,9 @@ box-shadow: -2px -2px 3px var(--fawn);
 }
 
 .projectImg{
-margin: 2vh;
-width: 30vw;
-height: 30vh;
+margin: 2vmax;
+width: 30vmax;
+height: 20vmax;
 border-radius: 15px 50px;
 border-style: inset;
 border-color: var(--fawn);
@@ -140,26 +148,22 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   display: block;
   position: absolute;
   transform: translate(-50%,-50%);
-  color: var(--dark-olive-green);
+  color: var(--kombu-green);
 }
 
-.container:hover > .projectTitle{
-  top: 30%;
-  left: 50%;
-}
 .container:hover > .websiteLink{
-    top: 50%;
-    left: 30%;
+    top: 30%;
+    left: 50%;
   }
   
 .container:hover > .repoLink{
-    top: 50%;
-    left: 70%;
+    top: 60%;
+    left: 50%;
    }
 
 .container:hover > .describeProject{
-  top: 70%;
-  left: 30%;
+  top: 80%;
+  left: 50%;
 }
 
 /* Resume Stylings */
