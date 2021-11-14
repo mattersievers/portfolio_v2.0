@@ -6,50 +6,13 @@ import Project from './components/Project';
 import AboutMe from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import projects from './utils/projectList';
 
 function App() {
   const [pages] = useState(['About', 'Portfolio', 'Resume', 'Contact']);
   const [currentPageSelection, setCurrentPageSelection] = useState(pages[0]);
 
-  const projects = [
-    {
-      name:"Budget Tracker",
-      link:"https://tranquil-dawn-49463.herokuapp.com/",
-      description:"IndexedDb and Cache Storage",
-      repo:""
-    },
-    {
-      name:"gripeSUPPORT",
-      link:"https://sheltered-scrubland-76347.herokuapp.com/",
-      description:"SQL/express/handlebars",
-      repo:""
-    },
-    {
-      name:"Pizza Hunt",
-      link:"https://vast-castle-22444.herokuapp.com/",
-      description:"MongoDB",
-      repo:""
-    },
-    {
-      name:"Zoo Keepr",
-      link:"https://thawing-lake-23506.herokuapp.com/",
-      description:"",
-      repo:""
-    },
-    {
-      name:"Note Taker",
-      link:"https://still-reef-94252.herokuapp.com/",
-      description:"",
-      repo:""
-    },
-    {
-      name:"Tech Blog",
-      link:"https://sleepy-earth-77165.herokuapp.com/",
-      description:"",
-      repo:""
-    }
-
-  ]
+ 
 
   return (
     <div className="pageContent d-flex flex-column justify-content-between">
