@@ -35,14 +35,14 @@ const Contact = () => {
             }
             var request = new XMLHttpRequest();
             request.onreadystatechange = async function() {
-                if (request.readyState == 4 && request.status == 200) {
+                if (request.readyState === 4 && request.status === 200) {
                     await setFormState({...initialState} );
                     document.getElementsByName("name")[0].value = '';
                     document.getElementsByName("email")[0].value = '';
                     document.getElementsByName("message")[0].value = '';
                     setSentMail('sent');
                 } else
-                if(request.readyState == 4) {
+                if(request.readyState === 4) {
                     setErrorMessage('Something went wrong. Please try to resend.')
                 }
             };
