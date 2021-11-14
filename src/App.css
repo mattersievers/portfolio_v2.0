@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 
 :root{
-  /* CSS HEX */
+  /* --------------- CSS HEX ------------------------ */
   --dark-olive-green: #606c38ff;
   --kombu-green: #283618ff;
   --cornsilk: #fefae0ff;
@@ -25,7 +25,7 @@
   box-sizing: inherit;
 }
 
-/* Main Body Stylings */
+/* ---------------------- Main Body Stylings --------------------------- */
  .pageContent{
    background-color: var(--kombu-green);
    width: 100%;
@@ -38,7 +38,7 @@
   
  }
 
-/* Header and Navigation styling */
+/* ------------------------- Header and Navigation styling -------------------------- */
 li {
   list-style-type: none;
 }
@@ -92,7 +92,7 @@ width: 100%;
   color: var(--liver-dogs);
 }
 
-/* About Me Stylings */
+/*  -----------------------  About Me Stylings  -------------------------  */
 .aboutMe{
   color: var(--cornsilk);
 }
@@ -120,7 +120,8 @@ box-shadow: -2px -2px 3px var(--fawn);
   text-shadow: 2px 2px var(--dark-olive-green);
 
 }
-/* Portfolio projects Stylings */
+
+/*  ----------------------  Portfolio projects Stylings  ---------------------------  */
 .container{
   position: relative;
   text-align:center;
@@ -166,11 +167,63 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   left: 50%;
 }
 
-/* Resume Stylings */
+/* --------------------------  Resume Stylings  ----------------------------- */
+.resumeSection{
+  height:100vh;
+}
 
-/* Contact Section Stylings */
+.resumeLink{
+  text-decoration: none;
+  padding: 4vmin;
+  margin-bottom: 7vmin ;
+  font-size: 5vmin;
+  color: var(--fawn);
+  border-radius: 15px 50px;
+  border-style: inset;
+  border-color: var(--fawn);
+  box-shadow: 2px 2px 3px var(--cornsilk);
+}
 
-/* Footer Styling */
+.resumeLink:hover{
+  color:  var(--cornsilk);
+  border-color: var(--cornsilk);
+}
+
+.resumeLink:active{
+  box-shadow: -2px -2px 3px var(--dark-olive-green);
+  border-color: var(--dark-olive-green);
+  border-style: outset;
+  color: var(--dark-olive-green);
+  text-shadow: 3px 3px black;
+}
+
+.proficiencyList{
+  border-radius: 15px 50px;
+  border-style: inset;
+  border-color: var(--fawn);
+  box-shadow: -2px -2px 3px var(--cornsilk);
+  margin: 2vmin;
+}
+
+.proficiencyList li{
+  size: 100%;
+  margin: 3vmin;
+  color: var(--fawn);
+  list-style-type: disc;
+  text-shadow: 3px 3px 4px black;
+}
+
+.proficiencyList li:hover{
+  text-shadow: 3px 3px black;
+  color: var(--cornsilk);
+  list-style-type: square;
+  cursor: default;
+}
+/* ---------- Contact Section Stylings ------------ */
+
+
+
+/* ------------ Footer Styling ------------------ */
 footer{
   background-image: var(--gradient-top-right);
   align-self: flex-end;
