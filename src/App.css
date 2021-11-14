@@ -28,7 +28,7 @@
 /* ---------------------- Main Body Stylings --------------------------- */
  .pageContent{
    background-color: var(--kombu-green);
-   width: 100%;
+   width: 100vw;
    
  }
 
@@ -302,8 +302,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 /* ------------ Footer Styling ------------------ */
 footer{
   background-image: var(--gradient-top-right);
-  width: 100vw;
-  padding: 3vh;
+  width: 100%;
   margin-top: 2.5vh;
   align-self: center;
 }
