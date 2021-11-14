@@ -169,7 +169,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 
 /* --------------------------  Resume Stylings  ----------------------------- */
 .resumeSection{
-  height:100vh;
+  min-height:100vh;
   min-width: 100vw;
 }
 
@@ -204,11 +204,14 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   border-color: var(--fawn);
   box-shadow: -2px -2px 3px var(--cornsilk);
   margin: 2vmin;
+  height: 70vh;
+  padding: 4vmin;
 }
 
 .proficiencyList li{
+  font-size: 4vmin;
   size: 100%;
-  margin: 3vmin;
+  margin: 5vmin;
   color: var(--fawn);
   list-style-type: disc;
   text-shadow: 3px 3px 4px black;
