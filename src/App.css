@@ -303,7 +303,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 footer{
   background-image: var(--gradient-top-right);
   width: 100vw;
-  padding: 3vh 33vw;
+  padding: 3vh;
   margin-top: 2.5vh;
   align-self: center;
 }
