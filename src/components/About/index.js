@@ -6,8 +6,7 @@ const AboutMe = () => {
             <img className="align-self-center" alt="A very studious Matthew" src={headshot}/>
             <div className="align-self-center">
             <p className="">
-                I am a web developer that lives in Austin, Texas. I have experience with HTML, CSS, JavaScript, and Python. I obtained my masters in Mathematics from Texas State University in the Spring of 2017 and started teaching at Austin Community College shortly after.
-                Like many people that live in the music capital, one of my favorite pastime hobbies includes playing music. I play several instruments including drums, bass, guitar, and trombone. I also have some experience with recording and production.
+            Full stack web developer with a certificate in Full Stack Web Development from the University of Texas and masters in Mathematics. Experience with JavaScript, HTML, CSS, MongoDB, Express, React, Node, SQL, and more. I have contributed code to all areas of projects from back-end databases to front-end styling and everything in between. I look forward to larger collaborative projects where I can apply my full stack of skills to create and refactor code that engages and retains users.
             </p>
             </div>
         </section>

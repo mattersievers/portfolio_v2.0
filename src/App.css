@@ -250,6 +250,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   box-shadow: 2px 2px 3px var(--cornsilk);
   margin: 5vmin;
   padding: 5vmin;
+  width: 60vw;
 }
 
 #contact-form div{
@@ -269,7 +270,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 }
 
 #contact-form input{
-  flex:1;
+  flex:2;
 }
 
 #contact-form button{
