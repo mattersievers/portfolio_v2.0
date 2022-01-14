@@ -251,13 +251,15 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   margin: 5vmin;
   padding: 5vmin;
   width: 60vw;
+  flex-wrap: wrap;
 }
 
 #contact-form div{
   margin: 2vmin;
-  padding: 2vmin;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 95%;
 }
 
 #contact-form label{
@@ -266,11 +268,13 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 }
 
 #contact-form textarea {
-  flex: 2;
+  flex: 2 auto;
+  padding: 2vmin;
 }
 
 #contact-form input{
-  flex:2;
+  flex: 2 auto;
+  padding: 2vmin;
 }
 
 #contact-form button{
