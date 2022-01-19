@@ -172,6 +172,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 
 .resumeLink{
   text-decoration: none;
+  text-shadow: -2px 2px 4px black;
   padding: 4vmin;
   margin: 7vw ;
   font-size: 5vmin;
@@ -180,6 +181,9 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   border-style: inset;
   border-color: var(--fawn);
   box-shadow: 2px 2px 3px var(--cornsilk);
+  background-image:url('./assets/pics/pexels-mark-neal-3289085.jpg');
+  background-position: center;
+  background-size: 75vmax;
 }
 
 .resumeLink:hover{
@@ -204,6 +208,10 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   height: 70vh;
   padding: 4vmin;
   height: max-content;
+  background-image:url('./assets/pics/pexels-mark-neal-3289084.jpg');
+  background-position: left 5% bottom 15%;
+  background-size: 100vmax;
+  background-repeat: no-repeat;
 }
 
 .proficiencyList li{
@@ -212,7 +220,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   margin: 5vmin;
   color: var(--fawn);
   list-style-type: disc;
-  text-shadow: 3px 3px 4px black;
+  text-shadow: -2px 2px 4px black;
 }
 
 .proficiencyList li:hover{
@@ -228,8 +236,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   height: 100%;
   margin: 2vmin;
   padding: 2vmin;
-  
-}
+} 
 
 .contactPage h1{
   border-radius: 15px 50px;
@@ -238,6 +245,9 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   box-shadow: 2px 2px 3px var(--cornsilk);
   margin: 5vmin;
   padding: 5vmin;
+  background-image:url('./assets/pics/pexels-mark-neal-3289085.jpg');
+  background-position: center;
+  background-size: 75vmax;
 }
 
 
@@ -250,6 +260,10 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   padding: 5vmin;
   width: 60vw;
   flex-wrap: wrap;
+  background-image:url('./assets/pics/pexels-mark-neal-3289084.jpg');
+  background-position: right;
+  background-size: 75vmax;
+  background-repeat: no-repeat;
 }
 
 #contact-form div{

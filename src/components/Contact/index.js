@@ -78,6 +78,7 @@ const Contact = () => {
     };
     return (
         <section className="contactPage d-flex flex-column align-items-center">
+        
             <Rotate top left>
                 <h1>Contact Me</h1>
             </Rotate>
@@ -106,6 +107,7 @@ const Contact = () => {
                 <button type="submit" name="submitBtn" className="btn">Submit</button>
             </form>
             </Rotate>
+        
             <Rotate bottom left>
             <a href="mailto: mattersievers@gmail.com">Or send an email directly!</a>
             </Rotate>
