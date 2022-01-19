@@ -30,9 +30,10 @@ function App() {
           <div className="d-flex flex-wrap justify-content-around">
             {projects.map((project,i) =>(
               <Project
-              project={project}
-              key={i}
-              />
+                project={project}
+                key={i}
+                projectIndex={i}
+                />
             ))}
           </div>
           </>

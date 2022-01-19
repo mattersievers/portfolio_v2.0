@@ -21,21 +21,24 @@
 }
 
 *{
-  box-sizing: border-box;
+  box-sizing: content-box;
   box-sizing: inherit;
 }
 
+html {
+  min-height: 100vh;
+  max-width: 100vw;
+}
 /* ---------------------- Main Body Stylings --------------------------- */
  .pageContent{
    background-color: var(--kombu-green);
    width: 100vw;
-   
+   min-height: 100vh;
  }
 
  main{
     height: 100%;
     width: 100%;
-  
  }
 
 /* ------------------------- Header and Navigation styling -------------------------- */
@@ -44,7 +47,6 @@ li {
 }
 
 .navBar{
-margin-right: 10%;
 width: 100%;
 }
 
@@ -52,9 +54,8 @@ width: 100%;
 .navBtn {
   color: var(--dark-olive-green);
   text-shadow: 1px 1px 3px var(--cornsilk);
-  font-size: 5vmin;
-  padding: 0.5vw;
-  margin: 1vw;
+  font-size: 2.5vw;
+  padding: 2vw;
   text-decoration: none;
 }
 
@@ -75,16 +76,16 @@ width: 100%;
 }
 .header{
   background-image: var(--gradient-bottom-right);
-  padding: 5vh;
-  margin-bottom: 2vh;
+  padding: 1.5vw;
+  padding-bottom: 2vw;
 }
 
 .myName{
   font-family: 'Ruthie', cursive;
   color: var(--fawn);
-  font-size: 4vmax;
-  margin-left: 5vw;
-  margin-top: 2vh;
+  font-size: 4.5vw;
+  padding-left: 5vw;
+  padding-top: 2vw;
   text-shadow: 2px 1px var(--cornsilk);
 }
 
@@ -98,8 +99,8 @@ width: 100%;
 }
 
 .aboutMe img{
-margin: 2vh;
-width: 25vmax;
+margin: 2vw;
+width: 20vmax;
 border-radius: 15px 50px;
 border-style: inset;
 border-color: var(--liver-dogs);
@@ -113,12 +114,12 @@ box-shadow: -2px -2px 3px var(--fawn);
   border-radius: 50px 15px;
   width: 70vw;
   height: 100%;
-  padding: 4vmax;
+  padding: 5vw 10vw;
   border-color: var(--liver-dogs);
   box-shadow: 2px 2px var(--fawn);
-  font-size: 4vmin;
+  font-size: 2vw;
   text-shadow: 2px 2px var(--dark-olive-green);
-
+  background-color: rgba(225, 225, 225, 0.1);
 }
 
 /*  ----------------------  Portfolio projects Stylings  ---------------------------  */
@@ -318,9 +319,9 @@ footer{
 footer a {
   color: var(--kombu-green);
   text-shadow: 1px 1px var(--cornsilk);
-  font-size: 1.5vmax;
+  font-size: 1.5vw;
   text-decoration: none;
-  padding: 5vw;
+  padding: 2.5vw;
 }
 
 footer a:hover {

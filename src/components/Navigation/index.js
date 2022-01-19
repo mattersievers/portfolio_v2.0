@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import Pulse from 'react-reveal/Pulse';
 
 const Navigation = (props) => {
 
@@ -10,7 +11,8 @@ const Navigation = (props) => {
         <section className="d-flex align-items-end navBtnContainer">
             <ul className="d-flex flex-row justify-content-between">
                 {props.pages.map((page,i) => (
-                    <li className="nav-item" key={i}>
+                    <Pulse key={i}>
+                    <li className="nav-item" >
                         <span 
                             className={`navBtn ${props.currentPageSelection === page && 'navBtnActivated'}`} 
                             onClick = { () => {
@@ -18,7 +20,8 @@ const Navigation = (props) => {
                             }}
                         >{page}
                         </span>
-                    </li>    
+                    </li>
+                    </Pulse>    
                 ))}
             </ul>
         </section>
