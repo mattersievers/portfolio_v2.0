@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_v2.0/static/css/main.327efd06.chunk.css",
+    "main.css": "/portfolio_v2.0/static/css/main.53553e0e.chunk.css",
     "main.js": "/portfolio_v2.0/static/js/main.98ae93c7.chunk.js",
     "main.js.map": "/portfolio_v2.0/static/js/main.98ae93c7.chunk.js.map",
     "runtime-main.js": "/portfolio_v2.0/static/js/runtime-main.07935838.js",
@@ -12,7 +12,7 @@
     "static/js/3.b2741c21.chunk.js.map": "/portfolio_v2.0/static/js/3.b2741c21.chunk.js.map",
     "index.html": "/portfolio_v2.0/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/portfolio_v2.0/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.327efd06.chunk.css.map": "/portfolio_v2.0/static/css/main.327efd06.chunk.css.map",
+    "static/css/main.53553e0e.chunk.css.map": "/portfolio_v2.0/static/css/main.53553e0e.chunk.css.map",
     "static/js/2.6e4caf06.chunk.js.LICENSE.txt": "/portfolio_v2.0/static/js/2.6e4caf06.chunk.js.LICENSE.txt",
     "static/media/Budget Tracker.png": "/portfolio_v2.0/static/media/Budget Tracker.c35f69da.png",
     "static/media/Lost and Sound.png": "/portfolio_v2.0/static/media/Lost and Sound.664f97ea.png",
@@ -23,13 +23,14 @@
     "static/media/Zoo Keepr.png": "/portfolio_v2.0/static/media/Zoo Keepr.df22420a.png",
     "static/media/gripeSUPPORT.png": "/portfolio_v2.0/static/media/gripeSUPPORT.030dbfba.png",
     "static/media/headshot.b67afd63.jpg": "/portfolio_v2.0/static/media/headshot.b67afd63.jpg",
+    "static/media/App.css": "/portfolio_v2.0/static/media/pexels-mark-neal-3289085.17267fc1.jpg",
     "static/media/portfolio_homepage.png": "/portfolio_v2.0/static/media/portfolio_homepage.41fb900d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.07935838.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.6e4caf06.chunk.js",
-    "static/css/main.327efd06.chunk.css",
+    "static/css/main.53553e0e.chunk.css",
     "static/js/main.98ae93c7.chunk.js"
   ]
 }
