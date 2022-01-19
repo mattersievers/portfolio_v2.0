@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { validateEmail } from '../../utils/helpers';
+import { Rotate } from "react-reveal";
 
 const Contact = () => {
     const initialState= {
@@ -77,7 +78,10 @@ const Contact = () => {
     };
     return (
         <section className="contactPage d-flex flex-column align-items-center">
-            <h1>Contact Me</h1>
+            <Rotate top left>
+                <h1>Contact Me</h1>
+            </Rotate>
+            <Rotate top right>
             <form id="contact-form" onSubmit={handleSubmit} className="d-flex flex-column justify-content-center">
                 <div>
                     <label htmlFor="name">Name: </label>
@@ -101,7 +105,10 @@ const Contact = () => {
                 )}
                 <button type="submit" name="submitBtn" className="btn">Submit</button>
             </form>
+            </Rotate>
+            <Rotate bottom left>
             <a href="mailto: mattersievers@gmail.com">Or send an email directly!</a>
+            </Rotate>
         </section>
     )
 }

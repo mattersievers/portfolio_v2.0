@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const AboutMe = () => {
     return(
-        <section className="aboutMe d-flex flex-column justify-content-between flex-wrap align-items-center">
+        <section className="aboutMe d-flex flex-column flex-wrap">
             <Fade left>
                 <img alt="A very studious Matthew" src={headshot}/>
             </Fade>

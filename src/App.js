@@ -19,7 +19,7 @@ function App() {
       currentPageSelection = {currentPageSelection}
       setCurrentPageSelection = {setCurrentPageSelection} />
       
-      <main className="">
+      <main>
 
         {currentPageSelection === "About" && 
         <AboutMe />
