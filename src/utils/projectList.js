@@ -1,9 +1,9 @@
 const projects = [
     {
       name:"Lost and Sound",
-      link:"https://obscure-meadow-25830.herokuapp.com/",
+      link:"https://lost-and-sound.herokuapp.com/",
       description:"MERN/Stripe/Leaflet",
-      repo:"https://github.com/mattersievers/lost_and_sound"
+      repo:"https://github.com/mattersievers/lost_and_sound_v2"
     },
     {
       name:"Budget Tracker",
@@ -18,10 +18,10 @@ const projects = [
       repo:"https://github.com/wsbousman/Gripe-Support"
     },
     {
-      name:"Pizza Hunt",
-      link:"https://vast-castle-22444.herokuapp.com/",
-      description:"MongoDB/Mongoose/Express",
-      repo:"https://github.com/mattersievers/pizza-hunt"
+      name:"Shop Shop",
+      link:"https://serene-caverns-16386.herokuapp.com/",
+      description:"MERN/GraphQL",
+      repo:"https://github.com/mattersievers/shop-shop"
     },
     {
       name:"Soundtracker",
@@ -41,7 +41,6 @@ const projects = [
       description:"SQL/Express/Handlebars",
       repo:"https://github.com/mattersievers/tech_blog"
     }
-
   ]
 
   module.exports = projects;
