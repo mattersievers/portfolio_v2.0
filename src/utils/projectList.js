@@ -20,7 +20,7 @@ const projects = [
     {
       name:"Shop Shop",
       link:"https://serene-caverns-16386.herokuapp.com/",
-      description:"MERN/GraphQL",
+      description:"MERN/GraphQL/Stripe",
       repo:"https://github.com/mattersievers/shop-shop"
     },
     {
