@@ -1,14 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import headshot from "../../assets/pics/headshot.jpg";
 import Fade from 'react-reveal/Fade';
+import Jello from 'react-reveal/Jello';
 
 const AboutMe = () => {
+    const [count, setCount] = useState(0);
+    setTimeout(() => {
+        setCount(count + 1);
+        return count}, 24000);
     return(
         <section className="aboutMe d-flex flex-column flex-wrap">
             <Fade left>
+                <Jello spy={count} duration={5000}>
                 <img alt="A very studious Matthew" src={headshot}/>
+                </Jello>
             </Fade>
 
+            <Jello spy={count} duration={5000}>
             <div>
             <Fade right>    
                 <p>
@@ -16,6 +24,7 @@ const AboutMe = () => {
                 </p>
             </Fade>
             </div>
+            </Jello>
 
         </section>
     )

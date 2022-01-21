@@ -79,10 +79,10 @@ const Contact = () => {
     return (
         <section className="contactPage d-flex flex-column align-items-center">
         
-            <Rotate top left>
+            <Rotate top left duration={2000}>
                 <h1>Contact Me</h1>
             </Rotate>
-            <Rotate top right>
+            <Rotate top right duration={2000}>
             <form id="contact-form" onSubmit={handleSubmit} className="d-flex flex-column justify-content-center">
                 <div>
                     <label htmlFor="name">Name: </label>

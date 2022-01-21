@@ -12,7 +12,7 @@ const Navigation = (props) => {
 
     return (
         <section className="d-flex align-items-end navBtnContainer">
-            <Jump duration={4000} spy={count} cascade={true}>
+            <Jump duration={4000} spy={count} cascade={count%2!==0}>
             <ul className="d-flex flex-row justify-content-between">
                 {props.pages.map((page,i) => (
                     <li className="nav-item" key={i}>
