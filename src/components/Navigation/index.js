@@ -1,8 +1,11 @@
-import React, {useEffect} from "react";
-import Pulse from 'react-reveal/Pulse';
+import React, {useEffect, useState} from "react";
+import Jump from 'react-reveal/Jump';
 
 const Navigation = (props) => {
-
+    const [count, setCount] = useState(0);
+    setTimeout(() => {
+        setCount(count + 1);
+        return count }, 15000)
     useEffect(() => {
         document.title = 'Matthew Sievers ' + props.currentPageSelection;
     })
@@ -11,7 +14,7 @@ const Navigation = (props) => {
         <section className="d-flex align-items-end navBtnContainer">
             <ul className="d-flex flex-row justify-content-between">
                 {props.pages.map((page,i) => (
-                    <Pulse key={i}>
+                    <Jump key={i} spy={count}>
                     <li className="nav-item" >
                         <span 
                             className={`navBtn ${props.currentPageSelection === page && 'navBtnActivated'}`} 
@@ -21,7 +24,7 @@ const Navigation = (props) => {
                         >{page}
                         </span>
                     </li>
-                    </Pulse>    
+                    </Jump>    
                 ))}
             </ul>
         </section>

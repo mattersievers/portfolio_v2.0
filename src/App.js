@@ -11,7 +11,7 @@ import projects from './utils/projectList';
 function App() {
   const [pages] = useState(['About', 'Portfolio', 'Resume', 'Contact']);
   const [currentPageSelection, setCurrentPageSelection] = useState(pages[0]);
-
+  
   return (
     <div className="pageContent d-flex flex-column justify-content-between">
       <Header
