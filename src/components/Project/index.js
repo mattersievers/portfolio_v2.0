@@ -6,7 +6,7 @@ const Project = (prop) => {
   
   if (prop.projectIndex%2) {
     return (
-        <Fade right>
+        <Fade bottom right>
         <section className="project">
                 <div className="container">
                     <img className="projectImg" src={require(`../../assets/pics/${prop.project.name}.png`).default} alt={prop.project.name} ></img>
@@ -20,7 +20,7 @@ const Project = (prop) => {
   }
   else{
       return(
-        <Fade left>
+        <Fade bottom left>
         <section className="project">
                 <div className="container">
                     <img className="projectImg" src={require(`../../assets/pics/${prop.project.name}.png`).default} alt={prop.project.name} ></img>

@@ -5,17 +5,17 @@ const Navigation = (props) => {
     const [count, setCount] = useState(0);
     setTimeout(() => {
         setCount(count + 1);
-        return count }, 15000)
+        return count }, 8000)
     useEffect(() => {
         document.title = 'Matthew Sievers ' + props.currentPageSelection;
     })
 
     return (
         <section className="d-flex align-items-end navBtnContainer">
+            <Jump duration={4000} spy={count} cascade={true}>
             <ul className="d-flex flex-row justify-content-between">
                 {props.pages.map((page,i) => (
-                    <Jump key={i} spy={count}>
-                    <li className="nav-item" >
+                    <li className="nav-item" key={i}>
                         <span 
                             className={`navBtn ${props.currentPageSelection === page && 'navBtnActivated'}`} 
                             onClick = { () => {
@@ -24,9 +24,10 @@ const Navigation = (props) => {
                         >{page}
                         </span>
                     </li>
-                    </Jump>    
                 ))}
             </ul>
+            
+            </Jump>    
         </section>
     )
 }
