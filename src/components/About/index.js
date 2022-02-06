@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import headshot from "../../assets/pics/headshot.jpg";
 import Fade from 'react-reveal/Fade';
 import Jello from 'react-reveal/Jello';
@@ -8,6 +8,8 @@ const AboutMe = () => {
     setTimeout(() => {
         setCount(count + 1);
         return count}, 24000);
+    useEffect(()=>{}
+        ,[count]);
     return(
         <section className="aboutMe d-flex flex-column flex-wrap">
             <Fade left>

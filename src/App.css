@@ -143,7 +143,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 }
 
 .container:hover > .projectImg{
-  filter: blur(10px) brightness(10000%);
+  filter: blur(15px) brightness(10000000%);
 }
 
 .container:hover > .disappearingProject{
@@ -163,7 +163,10 @@ box-shadow: -2px -2px 3px var(--cornsilk);
     left: 50%;
    }
 
-.container:hover > .describeProject{
+.container:hover > .projectInfoButton{
+  background-color: rgba(255, 255, 255, 0);
+  text-decoration: underline;
+  border: none;
   top: 80%;
   left: 50%;
 }
