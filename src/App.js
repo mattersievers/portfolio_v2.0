@@ -8,6 +8,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import projects from './utils/projectList';
 import InfoModal from './components/InfoModal';
+import { Fade } from 'react-reveal';
 
 function App() {
   const [pages] = useState(['About', 'Portfolio', 'Resume', 'Contact']);
@@ -20,8 +21,7 @@ function App() {
     setCurrentProjectIndex(event.target.id)
     setShowInfo(true);
   }
-  useEffect(()=>{
-  },[showInfo])
+  
   
   return (
     <div className="pageContent d-flex flex-column justify-content-between">

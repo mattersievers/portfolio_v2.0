@@ -45,7 +45,7 @@ const projects = [
       name:"Tech Blog",
       link:"https://sleepy-earth-77165.herokuapp.com/",
       technology:"SQL/Express/Handlebars",
-      description:"",
+      description:"Create a profile with a unique username and password and start blogging today about the latest developments in tech! Write an original blog or comment on an existing blog! It's all up to you!",
       repo:"https://github.com/mattersievers/tech_blog"
     }
   ]

@@ -1,23 +1,22 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
-import { Fade } from "react-reveal";
 
 const InfoModal = (props) => {
     const {currentprojectindex, projects} = props;
     const currentProject = projects[currentprojectindex];
+   
 
     return(
-        <Fade top duration={10000} when={props.show}>
         <Modal
         {...props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
-        animation={false}
+        animation-duration={2000}
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                <h1 ><a className="text-dark" href={currentProject.link}>{currentProject.name}</a></h1>
+                <h1><a className="text-dark" href={currentProject.link}>{currentProject.name}</a></h1>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -31,7 +30,6 @@ const InfoModal = (props) => {
                 <Button variant="outline-dark" onClick={props.onHide}>Close</Button>
             </Modal.Footer>
         </Modal>
-        </Fade>
 
     )
 }

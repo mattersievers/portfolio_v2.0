@@ -8,8 +8,6 @@ const AboutMe = () => {
     setTimeout(() => {
         setCount(count + 1);
         return count}, 24000);
-    useEffect(()=>{}
-        ,[count]);
     return(
         <section className="aboutMe d-flex flex-column flex-wrap">
             <Fade left>
