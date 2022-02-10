@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -8,7 +8,6 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import projects from './utils/projectList';
 import InfoModal from './components/InfoModal';
-import { Fade } from 'react-reveal';
 
 function App() {
   const [pages] = useState(['About', 'Portfolio', 'Resume', 'Contact']);

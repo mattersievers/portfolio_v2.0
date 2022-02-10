@@ -10,36 +10,36 @@ const projects = [
       name:"Budget Tracker",
       link:"https://tranquil-dawn-49463.herokuapp.com/",
       technology:"IndexedDb/Cache Storage",
-      description:"Budget Tracker allows users to keep track of personal expenses.",
+      description:"Budget Tracker allows users to keep track of personal expenses. Add or subtract funds from your account by providing a name and amount for each transaction. This app uses IndexedDB and cache storage methods so that it may be used with limited or no internet connectivity and will update when the user returns online.",
       repo:"https://github.com/mattersievers/budget-tracker"
     },
     {
       name:"gripeSUPPORT",
       link:"https://gripe-support.herokuapp.com/",
       technology:"SQL/Express/Handlebars",
-      description:"",
+      description:"Post a gripe. Post an encouragement. Users can create an account with a unique username and password to make anonymous posts classified as either a gripe or an encouragement. Users can view and interact with existing posts by giving a word of encouragement or digital hug.",
       repo:"https://github.com/wsbousman/Gripe-Support"
     },
     {
       name:"Shop Shop",
       link:"https://serene-caverns-16386.herokuapp.com/",
       technology:"MERN/GraphQL/Stripe",
-      description:"",
+      description:"Wares for sale! A full e-commerce website. This MERN stack digital storefront contains many items for sale which can be sorted by category. Users can add multiple items to their digital shopping cart and log in to checkout with a Stipe checkout system (in Test mode).",
       repo:"https://github.com/mattersievers/shop-shop"
     },
     {
       name:"Soundtracker",
       link:"https://itsmeadriana.github.io/Soundtracker/",
       technology:"Third-Party APIs",
-      description:"",
+      description:"Watching a movie and can't place the song? Use Soundtracker to look up the soundtrack to your favorite",
       repo:"https://github.com/itsmeadriana/Soundtracker"
     },
     {
-      name:"Note Taker",
-      link:"https://still-reef-94252.herokuapp.com/",
-      technology:"Express/API",
-      description:"",
-      repo:"https://github.com/mattersievers/note_taker"
+      name:"Book Search",
+      link:"https://book-search-92689.herokuapp.com/",
+      technology:"MERN/API",
+      description:"Search for books through Google Books API and create an account to save the books to a personalized list.",
+      repo:"https://github.com/mattersievers/book_search"
     },
     {
       name:"Tech Blog",

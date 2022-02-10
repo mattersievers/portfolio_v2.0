@@ -171,6 +171,19 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   left: 50%;
 }
 
+.repoImage:hover {
+  content: url('./assets/icons/GitHub-Mark-Light-32px.png') ;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.darkTextClickable:hover {
+  color: white!important;
+  text-decoration-color: white;
+  border-radius: 8px;
+  padding: 3px;
+  filter: drop-shadow(3px 3px 7px black);
+}
 /* --------------------------  Resume Stylings  ----------------------------- */
 
 .resumeLink{

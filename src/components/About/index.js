@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import headshot from "../../assets/pics/headshot.jpg";
 import Fade from 'react-reveal/Fade';
 import Jello from 'react-reveal/Jello';
