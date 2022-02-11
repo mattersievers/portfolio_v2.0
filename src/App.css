@@ -38,6 +38,7 @@ html,body{
  main{
     height: 100%;
     width: 100%;
+    min-height: 75vh;
  }
 
 /* ------------------------- Header and Navigation styling -------------------------- */
@@ -189,9 +190,9 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 .resumeLink{
   text-decoration: none;
   text-shadow: -2px 2px 4px black;
-  padding: 4vmin;
-  margin: 7vw ;
-  font-size: 5vmin;
+  padding: 2.5vw;
+  margin: 5vw;
+  font-size: 2.5vw;
   color: var(--fawn);
   border-radius: 15px 50px;
   border-style: inset;
@@ -215,36 +216,72 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   text-shadow: 3px 3px black;
 }
 
-.proficiencyList{
+.proficiencyListDiv{
   border-radius: 15px 50px;
   border-style: inset;
   border-color: var(--fawn);
   box-shadow: -2px -2px 3px var(--cornsilk);
-  margin: 5vw;
-  height: 70vh;
-  padding: 4vmin;
-  height: max-content;
+  width: 60vw;
   background-image:url('./assets/pics/pexels-mark-neal-3289084.jpg');
-  background-position: left 5% bottom 15%;
+  background-position: left 5% bottom 5%;
   background-size: 100vmax;
   background-repeat: no-repeat;
+  margin: 6vw;
+
+}
+
+.proficiencyListTitle{
+  color:white;
+  padding: 1vw;
+  font-size: 2.5vw;
+  text-decoration: underline;
+}
+.proficiencyList{
+  padding: 1vw;
 }
 
 .proficiencyList li{
-  font-size: 4vmin;
+  font-size: 2vw;
   size: 100%;
-  margin: 5vmin;
-  color: var(--fawn);
-  list-style-type: disc;
-  text-shadow: -2px 2px 4px black;
+  margin: 2vmin;
+  display: flex;
+  align-items: center;
 }
 
-.proficiencyList li:hover{
-  text-shadow: 3px 3px black;
-  color: var(--cornsilk);
-  list-style-type: square;
-  cursor: default;
+.proficiencyList li svg{
+  background-color: black;
+  color: white;
+  margin: 1vw;
+  height: 4vw;
+  width: 4vw;
+  border-radius: 6px;
 }
+
+.proficiencyList li svg:hover{
+  color: black;
+  background-color: white;
+}
+
+.proficiencyList li div{
+  position: relative;
+  box-sizing: content-box;
+  min-width: 2.5vw;
+}
+.proficiencyList li div[title]:hover:after{
+  overflow-wrap: break-word;
+  content: attr(title);
+  width: 80%;
+  font-size: 1vw;
+  position: absolute;
+  top: 91%;
+  left: 10%;
+  color: white;
+  box-shadow: 1px 1px 4px #222;
+  background-image: linear-gradient( #bbbbb4, #403b4a );
+  border-radius: 7.5px;
+  text-align: center;
+}
+
 /* ---------- Contact Section Stylings ------------ */
 
 .contactPage{
@@ -259,11 +296,12 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   border-style: inset;
   border-color: var(--fawn);
   box-shadow: 2px 2px 3px var(--cornsilk);
-  margin: 5vmin;
-  padding: 5vmin;
+  margin: 3vmax;
+  padding: 2.5vw;
   background-image:url('./assets/pics/pexels-mark-neal-3289085.jpg');
   background-position: center;
   background-size: 75vmax;
+  font-size: 2.5vw;
 }
 
 
@@ -272,18 +310,19 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   border-style: inset;
   border-color: var(--fawn);
   box-shadow: 2px 2px 3px var(--cornsilk);
-  margin: 5vmin;
-  padding: 5vmin;
+  margin: 2.5vmax;
+  padding: 2.5vw;
   width: 60vw;
   flex-wrap: wrap;
   background-image:url('./assets/pics/pexels-mark-neal-3289084.jpg');
-  background-position: right;
+  background-position: left 5% bottom 5%;
   background-size: 75vmax;
   background-repeat: no-repeat;
+  font-size: 1.5vw;
 }
 
 #contact-form div{
-  margin: 2vmin;
+  margin: 2.5vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -292,18 +331,12 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 
 #contact-form label{
   flex: 1;
-  padding: 2vmin;
+  padding: 1vw;
 }
 
-#contact-form textarea {
+#contact-form textarea, input {
   flex: 2 auto;
-  padding: 2vmin;
-  max-width: 100%;
-}
-
-#contact-form input{
-  flex: 2 auto;
-  padding: 2vmin;
+  padding: 1vw;
   max-width: 100%;
 }
 
@@ -316,6 +349,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   box-shadow: -3px -2px 4px var(--dark-olive-green);
   min-width: fit-content;
   align-self: center;
+  font-size: 1.5vw;
 }
 #contact-form button:hover{
   background-color: var(--liver-dogs);
@@ -329,6 +363,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
 
 .contactPage a{
   color: var(--cornsilk);
+  font-size: 1.5vw;
 }
 
 .contactPage a:hover{
