@@ -83,7 +83,7 @@ const Contact = () => {
                 <h1>Contact Me</h1>
             </Rotate>
             <Rotate top right duration={2000}>
-            <form id="contact-form" onSubmit={handleSubmit} className="d-flex flex-column justify-content-center">
+            <form id="contact-form" onSubmit={handleSubmit} className="d-flex flex-column justify-content-around">
                 <div>
                     <label htmlFor="name">Name: </label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
@@ -101,8 +101,11 @@ const Contact = () => {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
+                {!errorMessage && !sentMail && (
+                    <div><p className="error-text" style={{color: "rgba(0,0,0,0)"}}>_</p></div>
+                )}
                 {sentMail &&(
-                <div> Email sent!</div>
+                <div> <p className="error-text">Email sent!</p></div>
                 )}
                 <button type="submit" name="submitBtn" className="btn">Submit</button>
             </form>

@@ -227,7 +227,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   background-size: 100vmax;
   background-repeat: no-repeat;
   margin: 6vw;
-
+  min-height: 50vh;
 }
 
 .proficiencyListTitle{
@@ -246,41 +246,54 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   margin: 2vmin;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .proficiencyList li svg{
   background-color: black;
   color: white;
-  margin: 1vw;
   height: 4vw;
   width: 4vw;
   border-radius: 6px;
+  vertical-align: -0.125em;
+  min-height: 4vmax;
+  min-width: 4vmax;
 }
 
 .proficiencyList li svg:hover{
   color: black;
   background-color: white;
 }
+.proficiencyList li svg path{
+  fill: white;
+}
+.proficiencyList li svg:hover path{
+  fill:black;
+}
 
 .proficiencyList li div{
   position: relative;
   box-sizing: content-box;
   min-width: 2.5vw;
+  margin: 1vw;
 }
-.proficiencyList li div[title]:hover:after{
+
+.proficiencyList li div[aria-labelledby]:hover:after{
   overflow-wrap: break-word;
-  content: attr(title);
-  width: 80%;
-  font-size: 1vw;
+  content: attr(aria-labelledby);
+  width: 100%;
+  font-size: 0.75vmax;
   position: absolute;
-  top: 91%;
-  left: 10%;
+  top: 100%;
+  left: 0;
   color: white;
   box-shadow: 1px 1px 4px #222;
   background-image: linear-gradient( #bbbbb4, #403b4a );
   border-radius: 7.5px;
   text-align: center;
 }
+
 
 /* ---------- Contact Section Stylings ------------ */
 
@@ -319,6 +332,7 @@ box-shadow: -2px -2px 3px var(--cornsilk);
   background-size: 75vmax;
   background-repeat: no-repeat;
   font-size: 1.5vw;
+  min-height: 50vh;
 }
 
 #contact-form div{
