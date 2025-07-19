@@ -21,7 +21,7 @@ function App() {
     setShowInfo(true);
   }
   
-  
+console.log(projects);  
   return (
     <div className="pageContent d-flex flex-column justify-content-between">
       <Header
