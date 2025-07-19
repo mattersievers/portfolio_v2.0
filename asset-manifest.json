@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_v2.0/static/css/main.51bf422a.css",
-    "main.js": "/portfolio_v2.0/static/js/main.c7a334b6.js",
+    "main.js": "/portfolio_v2.0/static/js/main.7932aaa3.js",
     "static/js/453.2d89782c.chunk.js": "/portfolio_v2.0/static/js/453.2d89782c.chunk.js",
     "static/media/pexels-mark-neal-3289084.jpg": "/portfolio_v2.0/static/media/pexels-mark-neal-3289084.84bfe010c0205fb7177d.jpg",
     "static/media/pexels-mark-neal-3289085.jpg": "/portfolio_v2.0/static/media/pexels-mark-neal-3289085.17267fc12780477ce136.jpg",
@@ -18,11 +18,11 @@
     "static/media/Note Taker.png": "/portfolio_v2.0/static/media/Note Taker.1dfc0d48d569f867b5d2.png",
     "index.html": "/portfolio_v2.0/index.html",
     "main.51bf422a.css.map": "/portfolio_v2.0/static/css/main.51bf422a.css.map",
-    "main.c7a334b6.js.map": "/portfolio_v2.0/static/js/main.c7a334b6.js.map",
+    "main.7932aaa3.js.map": "/portfolio_v2.0/static/js/main.7932aaa3.js.map",
     "453.2d89782c.chunk.js.map": "/portfolio_v2.0/static/js/453.2d89782c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51bf422a.css",
-    "static/js/main.c7a334b6.js"
+    "static/js/main.7932aaa3.js"
   ]
 }
