@@ -26,7 +26,7 @@ const InfoModal = (props) => {
                 </p>
             </Modal.Body>
             <Modal.Footer className="justify-content-between bg-light">
-                <a href={currentProject.repo} target="_blank" rel="noreferrer" className=""><img className="repoImage" src={require(`../../assets/icons/GitHub-Mark-32px.png`).default} alt="GitHub"/></a>
+                <a href={currentProject.repo} target="_blank" rel="noreferrer" className=""><img className="repoImage" src={require(`../../assets/icons/GitHub-Mark-32px.png`)} alt="GitHub"/></a>
                 <Button variant="outline-dark" onClick={props.onHide}>Close</Button>
             </Modal.Footer>
         </Modal>
