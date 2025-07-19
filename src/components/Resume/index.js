@@ -10,7 +10,7 @@ const Resume = () => {
     return (
         <section className="resumeSection d-flex flex-column align-items-center justify-content-between">
             <Rotate top left duration={2000}>
-                <a href="https://drive.google.com/file/d/1mQV6_A6ElUt6uPYaEiEOxWC45VE1semS/view?usp=sharing" className="resumeLink ">Full Resume PDF</a>
+                <a href="https://docs.google.com/document/d/1toeOPycocB54QsCj2D3n4H5nc5jJS0_YqsTiR7RbnV8/edit?usp=sharing" className="resumeLink ">Full Resume PDF</a>
             </Rotate>
             <Rotate top right duration={2000}>
                 <div className="proficiencyListDiv d-flex flex-column align-items-center justify-content-around">
